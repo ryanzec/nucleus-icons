@@ -1,0 +1,17 @@
+{
+  "name": "nucleus-icons",
+  "version": "0.1.0",
+  "ignore": [
+    "gulp/*",
+    "source/*",
+    "gulpfile.js",
+    "package.json"
+  ],
+  "keywords": [
+    "icon",
+    "icons",
+    "nuclues",
+    "svg"
+  ],
+  "license": "CC BY 3.0"
+}
