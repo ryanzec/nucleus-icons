@@ -5,7 +5,9 @@
     "gulp/*",
     "source/*",
     "gulpfile.js",
-    "package.json"
+    "package.json",
+    "README.md",
+    "CHANGELOG.md"
   ],
   "keywords": [
     "icon",
