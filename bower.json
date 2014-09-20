@@ -1,9 +1,10 @@
 {
   "name": "nucleus-icons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "ignore": [
     "gulp/*",
     "source/*",
+    "size-test",
     "gulpfile.js",
     "package.json",
     "README.md",
