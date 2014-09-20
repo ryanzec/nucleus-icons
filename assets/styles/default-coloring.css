@@ -1,6 +1,7 @@
 .icon-thumbs-down .cuff-hole,
 .icon-thumbs-up .cuff-hole,
-.key .head-hole {
+.key .head-hole,
+.clipboard .clip-hole {
   fill: white;
 }
 
