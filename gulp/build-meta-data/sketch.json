@@ -113,6 +113,111 @@
     },
     "svg/thumbs-up.svg": {
       "fileHash": "c3d0b450e87f8213f40c6d71f46607d6d33b73ff"
+    },
+    "svg/x-small.svg": {
+      "fileHash": "958a9ae05c5be62787d0836855847396ef7b033d"
+    },
+    "svg/beginning-small.svg": {
+      "fileHash": "fab011088a4cbf5288c5e1f2a05421ec24854c2a"
+    },
+    "svg/checkmark-small.svg": {
+      "fileHash": "62d1fe455add45a91770fc9ac968c8af04c17483"
+    },
+    "svg/chevron-down-small.svg": {
+      "fileHash": "c260d6f05bdd3f214b4d98713068005a00e94502"
+    },
+    "svg/chevron-left-small.svg": {
+      "fileHash": "7cb18337c1566d08cc214f0bc2806cae6fe52884"
+    },
+    "svg/chevron-right-small.svg": {
+      "fileHash": "ee61e1cc1d637c11325187775fb5d4c605a799a7"
+    },
+    "svg/chevron-top-small.svg": {
+      "fileHash": "390b917e2212214932869e78ffec4e8f364ea582"
+    },
+    "svg/clipboard-small.svg": {
+      "fileHash": "8c59f9e1cfa86753ac1b1bf33a183ee2ee6280b1"
+    },
+    "svg/document-small.svg": {
+      "fileHash": "2fe721e831395cc55f3b3e2bf4ee39c05cae2853"
+    },
+    "svg/documents-small.svg": {
+      "fileHash": "14ecddd80f24fc0b9235074e046f9cd07d35efa2"
+    },
+    "svg/door-enter-small.svg": {
+      "fileHash": "df79fd4889614151095cd288a6ed206fb65ef509"
+    },
+    "svg/door-exit-small.svg": {
+      "fileHash": "f0495820624dd0082823b55d3159ff4d70ce1e3b"
+    },
+    "svg/end-small.svg": {
+      "fileHash": "4a792eac1512b36761bf02c8f66e7225000e3e45"
+    },
+    "svg/flip-horizontal-small.svg": {
+      "fileHash": "db269f878f6bb0cf2fb1cc409662685e986ecb29"
+    },
+    "svg/flip-vertical-small.svg": {
+      "fileHash": "da45d6b1894f6430734acdae74127b3f52ea7593"
+    },
+    "svg/folder-closed-small.svg": {
+      "fileHash": "26f405a810a5fc11476a3f16c0b390ecc96535c4"
+    },
+    "svg/folder-empty-small.svg": {
+      "fileHash": "e9299793eb6b5f40907b52d1b2a1e037d854c58e"
+    },
+    "svg/forward-small.svg": {
+      "fileHash": "93a33171b98df47fe2b2bb4dc8a54fd40f2724f9"
+    },
+    "svg/gear-small.svg": {
+      "fileHash": "c498d815ba2d0ee968482f7a3f24073f8a85062f"
+    },
+    "svg/gears-small.svg": {
+      "fileHash": "5036014a6719ab39b3338afe82efc2848914bda0"
+    },
+    "svg/info-small.svg": {
+      "fileHash": "729e90ef349af703f558a66dd7eae8b544ce535d"
+    },
+    "svg/key-small.svg": {
+      "fileHash": "168641fa4cb1d9a3f825dc667bb5a7e4ba16c684"
+    },
+    "svg/minus-small.svg": {
+      "fileHash": "c162dc5f15ac64f612ca2c113c66e2bd1b9107d0"
+    },
+    "svg/pause-small.svg": {
+      "fileHash": "1f2b82fb779c60cf550e2cff6ee0ac32dea551ab"
+    },
+    "svg/pie-small.svg": {
+      "fileHash": "8e0710b8929107142843d694fdd329a8aa3f8cb2"
+    },
+    "svg/play-small.svg": {
+      "fileHash": "cb7016a37acdd413c7d5f1d758d0ef8d2efb6743"
+    },
+    "svg/plus-small.svg": {
+      "fileHash": "f7561647023eacc2aa5275a4e6ed9e766e82fb77"
+    },
+    "svg/question-mark-small.svg": {
+      "fileHash": "eb1854f1b853fff4a76a84dcf41b2d8510812f96"
+    },
+    "svg/record-small.svg": {
+      "fileHash": "caa33ae95562d5e9bae8884505a0bba73b942aa8"
+    },
+    "svg/reverse-small.svg": {
+      "fileHash": "3c7e39f93bfacfadb6ddf099ca06893f8911189b"
+    },
+    "svg/stop-small.svg": {
+      "fileHash": "bcd04d8e1bf8eef9a323adfad6471fe40f40dfa1"
+    },
+    "svg/thumbs-down-small.svg": {
+      "fileHash": "0d0d52a411dd351a5663f6df5929d063500a1c18"
+    },
+    "svg/thumbs-up-small.svg": {
+      "fileHash": "c3d0b450e87f8213f40c6d71f46607d6d33b73ff"
+    },
+    "svg/user-small.svg": {
+      "fileHash": "38de7445ea2cbcc38e19ca77e1ed8cc7389e717b"
+    },
+    "svg/users-small.svg": {
+      "fileHash": "59b32cd579a89de3571d18728433581d34b8daaa"
     }
   },
   "buildFiles": {}

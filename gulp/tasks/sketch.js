@@ -8,6 +8,7 @@ var fs = require('fs');
 var jquery = fs.readFileSync(__dirname + '/../lib/jquery.js', 'utf-8');
 var async = require('async');
 var buildMetaDataFactory = require('build-meta-data');
+var _ = require('lodash');
 
 gulp.task('sketch', 'Cleans up sketch SVG files, remove un-needed or un-wanted code', function(done) {
   var buildMetaData = buildMetaDataFactory.create(process.cwd() + '/gulp/build-meta-data/sketch.json');
@@ -90,7 +91,25 @@ gulp.task('sketch', 'Cleans up sketch SVG files, remove un-needed or un-wanted c
             //shouldn't need the replace here but the above code to remove the xmlns:xlink attribute leaves it is as an empty value
             fileContents = $('svg')[0].outerHTML;
 
-            var newFileName = filePath.replace('-slice.svg', '.svg');
+            var classNameMapping = {
+              'small-icon': 'small',
+              'medium-icon:': 'medium',
+              'large-icon': 'large'
+            };
+
+            var newFileNameEnding = '';;
+
+            if(Object.keys(classNameMapping).length > 0) {
+              _.forEach(classNameMapping, function(nameEnding, className) {
+                if(newFileNameEnding === '' && $('svg').hasClass(className)) {
+                  newFileNameEnding = '-' + nameEnding;
+                }
+              });
+            }
+
+            newFileNameEnding += '.svg';
+
+            var newFileName = filePath.replace('-slice.svg', newFileNameEnding);
             fs.writeFileSync(newFileName, fileContents);
             fs.unlink(filePath);
             newFileNames.push(newFileName);
