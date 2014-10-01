@@ -1,16 +1,17 @@
-.icon-thumbs-down .cuff-hole,
-.icon-thumbs-up .cuff-hole,
-.key .head-hole,
-.clipboard .clip-hole {
+.thumbs-down-icon .cuff-hole,
+.thumbs-up-icon .cuff-hole,
+.key-icon .head-hole,
+.clipboard-icon .clip-hole {
   fill: white;
 }
 
-.document .lines,
-.documents .lines {
+.document-icon .lines,
+.documents-icon .lines {
   opacity: 1;
   fill: #FFFFFF;
 }
 
-.folder-empty .back {
+.folder-empty-icon .back,
+.clipboard-icon .clip {
   fill: #909090;
 }

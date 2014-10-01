@@ -19,7 +19,6 @@ gulp.task('sketch', 'Cleans up sketch SVG files, remove un-needed or un-wanted c
       var fileContents = fs.readFileSync(filePath, 'utf-8');
 
       gutil.log(gutil.colors.cyan('cleaning Sketch SVG file: ' + filePath));
-      var fileNameClass = 'icon-' + filePath.split('/')[filePath.split('/').length - 1].split('.')[0].replace('-slice', '');
       fileContents = fileContents
       //remove comments
       .replace(/<\!--.*-->/g, '')
@@ -35,9 +34,6 @@ gulp.task('sketch', 'Cleans up sketch SVG files, remove un-needed or un-wanted c
           var $ = window.$;
 
           if($('svg').length > 0) {
-            //add icon css class
-            $('svg').addClass(fileNameClass);
-
             //remove un-needed attributes, these should be defined by CSS
             $('[fill]').removeAttr('fill');
             $('[stroke]').removeAttr('stroke');
@@ -48,22 +44,28 @@ gulp.task('sketch', 'Cleans up sketch SVG files, remove un-needed or un-wanted c
             $('desc').remove();
 
             var idsToRemove = [
-              'svg-icon',
-              'small-icon',
-              'medium-icon',
-              'large-icon'
             ];
 
             idsToRemove.forEach(function(id) {
               if($('#' + id).length > 0) {
                 $('#' + id).removeAttr('id');
-
-                //add the removed id as a class to the main svg element
-                $('svg').addClass(id);
               }
             });
 
-            //switch ids to classes
+            if($('g[id]').length > 0) {
+              $('g[id]').each(function() {
+                $('svg').addClass($(this).attr('id'));
+                $(this).removeAttr('id');
+              });
+            }
+
+            //switch the rest of the ids to classes
+            if($('[id]').length > 0) {
+              $('[id]').each(function() {
+                $(this).addClass($(this).attr('id')).removeAttr('id');
+              });
+            }
+
             if($('[id]').length > 0) {
               $('[id]').each(function() {
                 $(this).addClass($(this).attr('id')).removeAttr('id');
@@ -81,6 +83,9 @@ gulp.task('sketch', 'Cleans up sketch SVG files, remove un-needed or un-wanted c
             if($('defs').children().length === 0) {
               $('defs').remove();
             }
+
+            //common class for svg icons
+            $('svg').addClass('svg-icon');
 
             //shouldn't need the replace here but the above code to remove the xmlns:xlink attribute leaves it is as an empty value
             fileContents = $('svg')[0].outerHTML;

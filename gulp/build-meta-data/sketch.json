@@ -1,118 +1,118 @@
 {
   "workingFiles": {
     "svg/door-enter.svg": {
-      "fileHash": "1b255ab7292e557620ca50e834da8a312f0536de"
+      "fileHash": "df79fd4889614151095cd288a6ed206fb65ef509"
     },
     "svg/door-exit.svg": {
-      "fileHash": "b7bb70e7dff74ca0e2e03caaac098e60f980c867"
+      "fileHash": "f0495820624dd0082823b55d3159ff4d70ce1e3b"
     },
     "svg/export.svg": {
       "fileHash": "ade2a5d332050f8813c6647705f8bdd68a4a34f2"
     },
     "svg/gear.svg": {
-      "fileHash": "bdb95c9a89f3eaceb953c422cfd1931279ea5a94"
+      "fileHash": "c498d815ba2d0ee968482f7a3f24073f8a85062f"
     },
     "svg/checkmark.svg": {
-      "fileHash": "a3fa39e022905d6c98c71decec96f869812722ed"
+      "fileHash": "62d1fe455add45a91770fc9ac968c8af04c17483"
     },
     "svg/gears.svg": {
-      "fileHash": "626bd7152bd32f9e86b0b3957c707f4f57ad5c07"
+      "fileHash": "5036014a6719ab39b3338afe82efc2848914bda0"
     },
     "svg/x.svg": {
-      "fileHash": "63f2025b086ca02b6abe2bbd5afebef17676a6f7"
+      "fileHash": "e778ccb29faf235cbe06e01aa5042ad8cd5303ba"
     },
     "svg/document.svg": {
-      "fileHash": "66dd0b49fff8320558506331f9fcfeddbb67ef3c"
+      "fileHash": "2fe721e831395cc55f3b3e2bf4ee39c05cae2853"
     },
     "svg/documents.svg": {
-      "fileHash": "124520e9192fb866e5d36aec419a4117a1838b3b"
+      "fileHash": "14ecddd80f24fc0b9235074e046f9cd07d35efa2"
     },
     "svg/minus.svg": {
-      "fileHash": "a68d507a3b856f0ba3ae847bf2a6850c6ee0f676"
+      "fileHash": "60cee2c4199c7f388ecd859f1a6490099f1032ee"
     },
     "svg/plus.svg": {
-      "fileHash": "0cdc0d9469669192bf22c15dcbe5ded74e0759f5"
+      "fileHash": "889b830b5b7509d7b4fdf83e9c695e0bf0b637c3"
     },
     "svg/chevron-down.svg": {
-      "fileHash": "338f0a430a774baf119463971348277451a3698e"
+      "fileHash": "c260d6f05bdd3f214b4d98713068005a00e94502"
     },
     "svg/chevron-left.svg": {
-      "fileHash": "c93a9fa8390a77554f3451a3d32713402e4d90b6"
+      "fileHash": "7cb18337c1566d08cc214f0bc2806cae6fe52884"
     },
     "svg/chevron-right.svg": {
-      "fileHash": "9199eab6709c0b71a3834c53fa4ca6a6c1a0d112"
+      "fileHash": "ee61e1cc1d637c11325187775fb5d4c605a799a7"
     },
     "svg/chevron-top.svg": {
-      "fileHash": "1c363a6b238c4123f5432fa4b1b1bfcee1ee8dea"
+      "fileHash": "390b917e2212214932869e78ffec4e8f364ea582"
     },
     "svg/flip-horizontal.svg": {
-      "fileHash": "0bbd944c9e0147a6a8898c186b856df256ef6944"
+      "fileHash": "db269f878f6bb0cf2fb1cc409662685e986ecb29"
     },
     "svg/flip-vertical.svg": {
-      "fileHash": "280f7dc634e06c7c1e40f6f58233a7273ceec2f5"
+      "fileHash": "da45d6b1894f6430734acdae74127b3f52ea7593"
     },
     "svg/folder-closed.svg": {
-      "fileHash": "359b3bd2ea00960fb56eb1d25edbf4f7606ddc83"
+      "fileHash": "80a17dcab281160c2d9b5cb27f0e061236414821"
     },
     "svg/folder-empty.svg": {
-      "fileHash": "b1e2145b459c56126aab31df606f2bede7bacf1e"
+      "fileHash": "e9299793eb6b5f40907b52d1b2a1e037d854c58e"
     },
     "svg/git.svg": {
-      "fileHash": "1bd60943ea369bb95ceeb423ffef86d868bb114f"
+      "fileHash": "bf2dd63701d5a9c8dc501dbd5149b381504d79af"
     },
     "svg/key.svg": {
-      "fileHash": "e59965e3b1399db414f3a5859e7b21633351e5b2"
+      "fileHash": "168641fa4cb1d9a3f825dc667bb5a7e4ba16c684"
     },
     "svg/play.svg": {
-      "fileHash": "580905de81783ebe4925d98e7389e47ddfc75494"
+      "fileHash": "cb7016a37acdd413c7d5f1d758d0ef8d2efb6743"
     },
     "svg/record.svg": {
-      "fileHash": "b499f3691f8fae8424a312a65cb21fa5c1c16cdd"
+      "fileHash": "caa33ae95562d5e9bae8884505a0bba73b942aa8"
     },
     "svg/stop.svg": {
-      "fileHash": "10a7f94f35418d493d7140d94714eb4aba535816"
+      "fileHash": "bcd04d8e1bf8eef9a323adfad6471fe40f40dfa1"
     },
     "svg/beginning.svg": {
-      "fileHash": "1ffdcd2ea04109050070354dbff02ba47d681003"
+      "fileHash": "fab011088a4cbf5288c5e1f2a05421ec24854c2a"
     },
     "svg/end.svg": {
-      "fileHash": "6e9d63fe76582906e8bf0c4fbd8ec3258b58f23f"
+      "fileHash": "4a792eac1512b36761bf02c8f66e7225000e3e45"
     },
     "svg/forward.svg": {
-      "fileHash": "4583ecaf5f729ad2695602f25317a50277e95c6c"
+      "fileHash": "93a33171b98df47fe2b2bb4dc8a54fd40f2724f9"
     },
     "svg/pause.svg": {
-      "fileHash": "c034cd03712236247c6f751a421342bd4233cd79"
+      "fileHash": "1f2b82fb779c60cf550e2cff6ee0ac32dea551ab"
     },
     "svg/reverse.svg": {
-      "fileHash": "aefd4c3928a5e6acf09be3be67717ed7cca8841e"
+      "fileHash": "3c7e39f93bfacfadb6ddf099ca06893f8911189b"
     },
     "svg/file.svg": {
       "fileHash": "14d1caebee9a23afe3c671f8f7d1cc5b6981a7b6"
     },
     "svg/question-mark.svg": {
-      "fileHash": "bd614a7e5871b34785c8ea8bf809735940395821"
+      "fileHash": "eb1854f1b853fff4a76a84dcf41b2d8510812f96"
     },
     "svg/user.svg": {
-      "fileHash": "08bd57cf6a0aa6893f382791bc617c334f678691"
+      "fileHash": "38de7445ea2cbcc38e19ca77e1ed8cc7389e717b"
     },
     "svg/users.svg": {
-      "fileHash": "2d5d9fac8389afd283f32f9996a7f6d4afeb7b86"
+      "fileHash": "59b32cd579a89de3571d18728433581d34b8daaa"
     },
     "svg/clipboard.svg": {
-      "fileHash": "05de091f804ac61e469a9a42e183db57accd723c"
+      "fileHash": "8c59f9e1cfa86753ac1b1bf33a183ee2ee6280b1"
     },
     "svg/info.svg": {
-      "fileHash": "eb4961e1e308a042558cc26da158e77b8f4728ee"
+      "fileHash": "729e90ef349af703f558a66dd7eae8b544ce535d"
     },
     "svg/pie.svg": {
-      "fileHash": "44fa6928748cb1079115424f06f59aec1816c1d3"
+      "fileHash": "8e0710b8929107142843d694fdd329a8aa3f8cb2"
     },
     "svg/thumbs-down.svg": {
-      "fileHash": "e98df7e4a27aeb23fd75a33ef8dbfe12bdb0fca9"
+      "fileHash": "0d0d52a411dd351a5663f6df5929d063500a1c18"
     },
     "svg/thumbs-up.svg": {
-      "fileHash": "6be994f2069f1a1c75ba11f9908a80ebbebcacf2"
+      "fileHash": "c3d0b450e87f8213f40c6d71f46607d6d33b73ff"
     }
   },
   "buildFiles": {}
