@@ -118,7 +118,7 @@
       "fileHash": "958a9ae05c5be62787d0836855847396ef7b033d"
     },
     "svg/beginning-small.svg": {
-      "fileHash": "fab011088a4cbf5288c5e1f2a05421ec24854c2a"
+      "fileHash": "ba2d0676fbba567936e5782c912cb1cb7a4fb895"
     },
     "svg/checkmark-small.svg": {
       "fileHash": "62d1fe455add45a91770fc9ac968c8af04c17483"
@@ -136,7 +136,7 @@
       "fileHash": "390b917e2212214932869e78ffec4e8f364ea582"
     },
     "svg/clipboard-small.svg": {
-      "fileHash": "8c59f9e1cfa86753ac1b1bf33a183ee2ee6280b1"
+      "fileHash": "5ba8bf4873d0e9c28f9feb3625612aed3eb5a10c"
     },
     "svg/document-small.svg": {
       "fileHash": "2fe721e831395cc55f3b3e2bf4ee39c05cae2853"
@@ -160,7 +160,7 @@
       "fileHash": "da45d6b1894f6430734acdae74127b3f52ea7593"
     },
     "svg/folder-closed-small.svg": {
-      "fileHash": "26f405a810a5fc11476a3f16c0b390ecc96535c4"
+      "fileHash": "18f85f49788dd38a49ce54670f20595c689fae44"
     },
     "svg/folder-empty-small.svg": {
       "fileHash": "e9299793eb6b5f40907b52d1b2a1e037d854c58e"
@@ -169,10 +169,10 @@
       "fileHash": "93a33171b98df47fe2b2bb4dc8a54fd40f2724f9"
     },
     "svg/gear-small.svg": {
-      "fileHash": "c498d815ba2d0ee968482f7a3f24073f8a85062f"
+      "fileHash": "2f1abb4525706f906f60b854ce225dc60900e3b3"
     },
     "svg/gears-small.svg": {
-      "fileHash": "5036014a6719ab39b3338afe82efc2848914bda0"
+      "fileHash": "e143fb0882c716286e35cf3253f1e4080687e34b"
     },
     "svg/info-small.svg": {
       "fileHash": "729e90ef349af703f558a66dd7eae8b544ce535d"
@@ -184,10 +184,10 @@
       "fileHash": "c162dc5f15ac64f612ca2c113c66e2bd1b9107d0"
     },
     "svg/pause-small.svg": {
-      "fileHash": "1f2b82fb779c60cf550e2cff6ee0ac32dea551ab"
+      "fileHash": "fbab76b5a7c878a2ba52467b9183114ff6f362af"
     },
     "svg/pie-small.svg": {
-      "fileHash": "8e0710b8929107142843d694fdd329a8aa3f8cb2"
+      "fileHash": "b5089503f81cdbc11f59d9d3b0a8c570ada77a72"
     },
     "svg/play-small.svg": {
       "fileHash": "cb7016a37acdd413c7d5f1d758d0ef8d2efb6743"
@@ -218,6 +218,9 @@
     },
     "svg/users-small.svg": {
       "fileHash": "59b32cd579a89de3571d18728433581d34b8daaa"
+    },
+    "svg/inbox-small.svg": {
+      "fileHash": "02f79be22c53a16b4c595228c3c88a509c8517a2"
     }
   },
   "buildFiles": {}
