@@ -80,16 +80,11 @@ gulp.task('sketch', 'Cleans up sketch SVG files, remove un-needed or un-wanted c
               });
             }
 
-            //remove <defs />if empty
-            if($('defs').children().length === 0) {
-              $('defs').remove();
-            }
-
             //common class for svg icons
             $('svg').addClass('svg-icon');
-
-            //shouldn't need the replace here but the above code to remove the xmlns:xlink attribute leaves it is as an empty value
-            fileContents = $('svg')[0].outerHTML;
+            $('svg').removeAttr('height');
+            $('svg').removeAttr('width');
+            $('svg').attr('style', 'display: none;');
 
             var classNameMapping = {
               'small-icon': 'small',
@@ -110,6 +105,16 @@ gulp.task('sketch', 'Cleans up sketch SVG files, remove un-needed or un-wanted c
             newFileNameEnding += '.svg';
 
             var newFileName = filePath.replace('-slice.svg', newFileNameEnding);
+            var defId = newFileName.substr(0, newFileName.length - 4);
+            defId = defId.split('/');
+            defId = defId[defId.length - 1];
+
+            $('svg > g').attr('id', defId);
+            $('defs').append($('svg > g').detach());
+
+            //shouldn't need the replace here but the above code to remove the xmlns:xlink attribute leaves it is as an empty value
+            fileContents = $('svg')[0].outerHTML;
+
             fs.writeFileSync(newFileName, fileContents);
             fs.unlink(filePath);
             newFileNames.push(newFileName);
