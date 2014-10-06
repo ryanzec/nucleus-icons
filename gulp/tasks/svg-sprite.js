@@ -25,7 +25,7 @@ gulp.task('svg-sprite', 'Cleans up sketch SVG files, remove un-needed or un-want
           var $ = window.$;
 
           if($('svg').length > 0) {
-            var rootElement = $('svg > defs > g');
+            var rootElement = $('svg > g');
             var rootElementId = rootElement.attr('id');
             svgInnerContent = rootElement.removeAttr('id')[0].outerHTML;
             var viewBox = $('svg')[0];

@@ -37,34 +37,27 @@ gulp.task('sketch', 'Cleans up sketch SVG files, remove un-needed or un-wanted c
             $('[fill]').removeAttr('fill');
             $('[stroke]').removeAttr('stroke');
             $('[stroke-width]').removeAttr('stroke-width');
+            $('svg').removeAttr('height');
+            $('svg').removeAttr('width');
 
             //remove un-needed tags
             $('title').remove();
             $('desc').remove();
 
-            var idsToRemove = [
-            ];
-
-            idsToRemove.forEach(function(id) {
-              if($('#' + id).length > 0) {
-                $('#' + id).removeAttr('id');
-              }
-            });
-
-            if($('g[id]').length > 0) {
-              $('g[id]').each(function() {
+            if($('svg > g > g[id]').length > 0) {
+              $('svg > g > g[id]').each(function() {
+                //add the id of the second grouping as a class to the parent
                 $('svg > g').addClass($(this).attr('id'));
                 $(this).removeAttr('id');
+
+                //remove grouping element if there are no other attribute on it
+                if($(this)[0]._attributes.length === 0) {
+                  $('svg > g').html($(this)[0].innerHTML);
+                }
               });
             }
 
             //switch the rest of the ids to classes
-            if($('[id]').length > 0) {
-              $('[id]').each(function() {
-                $(this).addClass($(this).attr('id')).removeAttr('id');
-              });
-            }
-
             if($('[id]').length > 0) {
               $('[id]').each(function() {
                 $(this).addClass($(this).attr('id')).removeAttr('id');
@@ -78,19 +71,19 @@ gulp.task('sketch', 'Cleans up sketch SVG files, remove un-needed or un-wanted c
               });
             }
 
-            //common class for svg icons
-            $('svg > g').addClass('svg-icon');
-            $('svg').removeAttr('height');
-            $('svg').removeAttr('width');
-            $('svg').attr('style', 'display: none;');
+            //remove <defs /> if empty
+            if($('defs').children().length === 0) {
+              $('defs').remove();
+            }
 
+            //figure out the file naming ending
             var classNameMapping = {
               'small-icon': 'small',
               'medium-icon:': 'medium',
               'large-icon': 'large'
             };
 
-            var newFileNameEnding = '';;
+            var newFileNameEnding = '';
 
             if(Object.keys(classNameMapping).length > 0) {
               _.forEach(classNameMapping, function(nameEnding, className) {
@@ -103,16 +96,16 @@ gulp.task('sketch', 'Cleans up sketch SVG files, remove un-needed or un-wanted c
             newFileNameEnding += '.svg';
 
             var newFileName = filePath.replace('-slice.svg', newFileNameEnding);
+
+            //generate the id by file name, used for generated svg sprite
             var defId = newFileName.substr(0, newFileName.length - 4);
             defId = defId.split('/');
             defId = defId[defId.length - 1];
 
             $('svg > g').attr('id', defId);
-            $('defs').append($('svg > g').detach());
 
-            //shouldn't need the replace here but the above code to remove the xmlns:xlink attribute leaves it is as an empty value
+            //write the compressed file and remove the slice file
             fileContents = $('svg')[0].outerHTML;
-
             fs.writeFileSync(newFileName, fileContents);
             fs.unlink(filePath);
             newFileNames.push(newFileName);
