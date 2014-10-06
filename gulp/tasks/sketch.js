@@ -1,12 +1,10 @@
 var gulp = require('gulp');
 var gutil = require('gulp-util');
 var gulpConfig = require('../config.js');
-var through = require('through2');
 var globArray = require('glob-array');
 var jsdom = require('jsdom');
 var fs = require('fs');
 var jquery = fs.readFileSync(__dirname + '/../lib/jquery.js', 'utf-8');
-var async = require('async');
 var buildMetaDataFactory = require('build-meta-data');
 var _ = require('lodash');
 
@@ -55,7 +53,7 @@ gulp.task('sketch', 'Cleans up sketch SVG files, remove un-needed or un-wanted c
 
             if($('g[id]').length > 0) {
               $('g[id]').each(function() {
-                $('svg').addClass($(this).attr('id'));
+                $('svg > g').addClass($(this).attr('id'));
                 $(this).removeAttr('id');
               });
             }
@@ -81,7 +79,7 @@ gulp.task('sketch', 'Cleans up sketch SVG files, remove un-needed or un-wanted c
             }
 
             //common class for svg icons
-            $('svg').addClass('svg-icon');
+            $('svg > g').addClass('svg-icon');
             $('svg').removeAttr('height');
             $('svg').removeAttr('width');
             $('svg').attr('style', 'display: none;');
@@ -96,7 +94,7 @@ gulp.task('sketch', 'Cleans up sketch SVG files, remove un-needed or un-wanted c
 
             if(Object.keys(classNameMapping).length > 0) {
               _.forEach(classNameMapping, function(nameEnding, className) {
-                if(newFileNameEnding === '' && $('svg').hasClass(className)) {
+                if(newFileNameEnding === '' && $('svg > g').hasClass(className)) {
                   newFileNameEnding = '-' + nameEnding;
                 }
               });

@@ -1,17 +1,15 @@
 .thumbs-down-icon .cuff-hole,
 .thumbs-up-icon .cuff-hole,
 .key-icon .head-hole,
-.clipboard-icon .clip-hole {
+.clipboard-icon .clip-hole,
+.document-icon .type-indicator,
+.documents-icon .type-indicator {
   fill: white;
 }
 
-.document-icon .lines,
-.documents-icon .lines {
-  opacity: 1;
-  fill: #FFFFFF;
-}
-
 .folder-empty-icon .back,
+.document-icon .fold,
+.documents-icon .fold,
 .clipboard-icon .clip {
   fill: #909090;
 }

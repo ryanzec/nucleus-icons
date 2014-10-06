@@ -1,122 +1,5 @@
 {
   "workingFiles": {
-    "svg/door-enter.svg": {
-      "fileHash": "90080e0d8b1464ed5e4c9215f54f967eaa2aff0e"
-    },
-    "svg/door-exit.svg": {
-      "fileHash": "7c42718d8546281912e493900bafbc1e56e2104e"
-    },
-    "svg/export.svg": {
-      "fileHash": "ade2a5d332050f8813c6647705f8bdd68a4a34f2"
-    },
-    "svg/gear.svg": {
-      "fileHash": "6d468578474e53c049d2413a6e9e0a72ce0cdcbb"
-    },
-    "svg/checkmark.svg": {
-      "fileHash": "c2849d8f647fe8e518eec086d239ccdcddc90ccc"
-    },
-    "svg/gears.svg": {
-      "fileHash": "e0cb81be1626689d0ad9ebd5fc5e73c2382e2e5b"
-    },
-    "svg/x.svg": {
-      "fileHash": "cc708ecfdb8ed0790e58e4f5094470c195e500ae"
-    },
-    "svg/document.svg": {
-      "fileHash": "bc41bb61b968fad44b249943b3e0e138f20fdc9b"
-    },
-    "svg/documents.svg": {
-      "fileHash": "4ddc3599fe861993b92a5db160120d4067252713"
-    },
-    "svg/minus.svg": {
-      "fileHash": "28af888056c7a1d28473f0d4bfc9c48e7da402f4"
-    },
-    "svg/plus.svg": {
-      "fileHash": "dea532e57927d51f96528a8e4510e4e7404429cb"
-    },
-    "svg/chevron-down.svg": {
-      "fileHash": "907acea4783c95049fbd300050097ccf75ccae90"
-    },
-    "svg/chevron-left.svg": {
-      "fileHash": "b0faa6627f77140ba27f62f8311ee3461722d4d0"
-    },
-    "svg/chevron-right.svg": {
-      "fileHash": "69afc6b6f4ff1c7206fc353b9c8484061798e2ac"
-    },
-    "svg/chevron-top.svg": {
-      "fileHash": "3dba5265ccedcb41a7de507b002c3cd165e676ee"
-    },
-    "svg/flip-horizontal.svg": {
-      "fileHash": "6c14a630618a58f6a8bcd1b596e50933ad05ed6a"
-    },
-    "svg/flip-vertical.svg": {
-      "fileHash": "f1dade0e5976f27193671a39a1cd55f0ea6514bd"
-    },
-    "svg/folder-closed.svg": {
-      "fileHash": "6b8808f5cf995a7b94247726090fa3356078ee6e"
-    },
-    "svg/folder-empty.svg": {
-      "fileHash": "d67d6927002db43f7774952e4dff574cc9f501d4"
-    },
-    "svg/git.svg": {
-      "fileHash": "bf2dd63701d5a9c8dc501dbd5149b381504d79af"
-    },
-    "svg/key.svg": {
-      "fileHash": "e40c3e4cea27cbeb9e3778b1878c0d49328484cd"
-    },
-    "svg/play.svg": {
-      "fileHash": "7c00221db52f955da58b10189a8f4d64de24775d"
-    },
-    "svg/record.svg": {
-      "fileHash": "28b755781e7dc6cc46189ecc70295893748c35ee"
-    },
-    "svg/stop.svg": {
-      "fileHash": "92e9f3e8ede12f09a5aa397ed0c4be5657d7bff9"
-    },
-    "svg/beginning.svg": {
-      "fileHash": "886e4d02fb45fec7744b68f0ddb751d68af51741"
-    },
-    "svg/end.svg": {
-      "fileHash": "e86c67d3d807733910034d56907c0dd2c0b6e628"
-    },
-    "svg/forward.svg": {
-      "fileHash": "6dd825e6cd75bc5a21d48253d16c1aa468c505ed"
-    },
-    "svg/pause.svg": {
-      "fileHash": "3a857a1134e505323c33df3a7ddaf1b8a1dcd02d"
-    },
-    "svg/reverse.svg": {
-      "fileHash": "8528597ee24cdd16a91eeb4d78816afd36d93265"
-    },
-    "svg/file.svg": {
-      "fileHash": "14d1caebee9a23afe3c671f8f7d1cc5b6981a7b6"
-    },
-    "svg/question-mark.svg": {
-      "fileHash": "aee1cbe98e2afd4b0a7168f65011f86aed8dc468"
-    },
-    "svg/user.svg": {
-      "fileHash": "528f556a4b6a282434d5925c6f0cfba94ba769d8"
-    },
-    "svg/users.svg": {
-      "fileHash": "7cbdc038d90a64a4feca39cd2a9404ad375ca028"
-    },
-    "svg/clipboard.svg": {
-      "fileHash": "4078ad65aac26c567b2c9ecd75e8eb3ec9c14bcb"
-    },
-    "svg/info.svg": {
-      "fileHash": "628f936c19d8776bfbc31fbcd4df812e477a909d"
-    },
-    "svg/pie.svg": {
-      "fileHash": "cb8cc7ea394d2fd9827b37efb6a515ed3bb5c4a9"
-    },
-    "svg/thumbs-down.svg": {
-      "fileHash": "be20e20dd55f5478107ad1b64ac24f5de1cdb81a"
-    },
-    "svg/thumbs-up.svg": {
-      "fileHash": "ea08911a23329bd9c28c14c707684823fb0ab148"
-    },
-    "svg/x-small.svg": {
-      "fileHash": "87547535fbfee7fe51c2b168fe784aa9c02b2f79"
-    },
     "svg/beginning-small.svg": {
       "fileHash": "c550f76d645ad366e8ea3ae02574526827a658e9"
     },
@@ -174,6 +57,9 @@
     "svg/gears-small.svg": {
       "fileHash": "2477a657b615ce8e138530b2219b71d75c7adaef"
     },
+    "svg/inbox-small.svg": {
+      "fileHash": "823a926c1755a91a24816791da8f4a705eccbbef"
+    },
     "svg/info-small.svg": {
       "fileHash": "bc040243c729874b365e038a6d6c00af15b8c736"
     },
@@ -219,11 +105,8 @@
     "svg/users-small.svg": {
       "fileHash": "ff2fa02c60f7988dd303d8088fdb5b7b0b4dc8c1"
     },
-    "svg/inbox-small.svg": {
-      "fileHash": "823a926c1755a91a24816791da8f4a705eccbbef"
-    },
-    "svg/inbox.svg": {
-      "fileHash": "233e2ad4350a9afb9621b4eab7f77909f7585b34"
+    "svg/x-small.svg": {
+      "fileHash": "87547535fbfee7fe51c2b168fe784aa9c02b2f79"
     },
     "svg/document-code-small.svg": {
       "fileHash": "54fb634f97350e744db5cf712e1e542bf8cb3a25"
@@ -244,5 +127,48 @@
       "fileHash": "766e5dc9689886ab18f8bf6f066265f4996c8b7e"
     }
   },
-  "buildFiles": {}
+  "buildFiles": {
+    "svg/svg-sprite.svg": [
+      "svg/beginning-small.svg",
+      "svg/checkmark-small.svg",
+      "svg/chevron-down-small.svg",
+      "svg/chevron-left-small.svg",
+      "svg/chevron-right-small.svg",
+      "svg/chevron-top-small.svg",
+      "svg/clipboard-small.svg",
+      "svg/document-code-small.svg",
+      "svg/document-empty-small.svg",
+      "svg/document-text-small.svg",
+      "svg/documents-code-small.svg",
+      "svg/documents-empty-small.svg",
+      "svg/documents-text-small.svg",
+      "svg/door-enter-small.svg",
+      "svg/door-exit-small.svg",
+      "svg/end-small.svg",
+      "svg/flip-horizontal-small.svg",
+      "svg/flip-vertical-small.svg",
+      "svg/folder-closed-small.svg",
+      "svg/folder-empty-small.svg",
+      "svg/forward-small.svg",
+      "svg/gear-small.svg",
+      "svg/gears-small.svg",
+      "svg/inbox-small.svg",
+      "svg/info-small.svg",
+      "svg/key-small.svg",
+      "svg/minus-small.svg",
+      "svg/pause-small.svg",
+      "svg/pie-small.svg",
+      "svg/play-small.svg",
+      "svg/plus-small.svg",
+      "svg/question-mark-small.svg",
+      "svg/record-small.svg",
+      "svg/reverse-small.svg",
+      "svg/stop-small.svg",
+      "svg/thumbs-down-small.svg",
+      "svg/thumbs-up-small.svg",
+      "svg/user-small.svg",
+      "svg/users-small.svg",
+      "svg/x-small.svg"
+    ]
+  }
 }
