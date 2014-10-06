@@ -4,11 +4,11 @@
   "ignore": [
     "gulp/*",
     "source/*",
-    "size-test",
+    "web/*",
+    "CHANGELOG.md",
     "gulpfile.js",
     "package.json",
     "README.md",
-    "CHANGELOG.md"
   ],
   "keywords": [
     "icon",
