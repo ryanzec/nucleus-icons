@@ -2,6 +2,7 @@
 
 ## master
 
+- fixed a few icons that were using white colored shapes when it should have been substracting the shapes
 - added paper clip icon
 - added merge icon (#6)
 - added magnifier icon
