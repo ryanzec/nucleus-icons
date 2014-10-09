@@ -3,7 +3,9 @@
 .key-icon .head-hole,
 .clipboard-icon .clip-hole,
 .document-icon .type-indicator,
-.documents-icon .type-indicator {
+.documents-icon .type-indicator,
+.book-closed-icon .line,
+.book-opened-icon .line {
   fill: white;
 }
 

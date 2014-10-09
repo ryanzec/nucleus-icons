@@ -12,6 +12,34 @@ There are a number of goals I hope to maintain with these icons:
 
 Read below for more of a background on why I am building these icons.
 
+## Usage
+
+There are 2 primary ways to interact with this icons, embedded them inline and loading them externally.
+
+### Embed Inline
+
+The svg folder contains all the icons as indivually files.  Simple copy that content into you html and you are ready to go.  To simplify this process I would probably add something to a build process that does this automatically.
+
+The benefit of this method is that you have the real svg content in the html so you have full control with it with css (including of an instance by instance case) however the pricing you pay for that is with additional html size when you have the same icon used multiple times of the page since you need the svg content for each instance (though with gzipping, is should be minimized).
+
+### External
+
+The svg folder also contains a `svg-sprite.svg` file that contains all the icons in one file.  You can then use the svg icons by including the following in your code:
+
+```html
+<svg>
+  <use xlink:href="/svg-sprite.svg#checkmark-small"></use>
+</svg>
+```
+
+The value of after the `#` matches the file name of the individual icons minus the extension.
+
+The benefit of this method is that you don't duplicate content and therefore have a some html file size when you have duplicate icons on the same page.  The down side is that you don't have full css control of the svg inner parts on an instance by instance level since the `<use>` tag use the shadow dom which right now can't be controlled by external css.
+
+### Both
+
+Of course you could just use both method.  Use the external method when you only need css on the main svg element and use the inline method when you need to tweak the svg inner parts for that instance, giving you the best of both methods.
+
 ## Why?
 
 There are a bunch of free (and some paid) svg icon packs in the wild so why create another?  I originally purchased a license to the Iconic icon set because of the type of functionality that its javascript library provided but I started to run across issues when integrating it with an Angular 1.3 application.  Angular 1.3 requires the use of the `<base>` tag however a number of the smart Iconic icons make use of clipping paths and other svg attributes that use `url()` to be applied.  This causes issues for single page application that require the `<base>` tag (you can read through this [issue](https://github.com/angular/angular.js/issues/8934) on github).  Now I prefer to not to use the `<base>` tag as it always seems to cause more issues than it solves however I do like to use Angular so I guess I am stuck with it.  Now I know that Iconic is in the process of trying to resolves this issue, unfortunately I can't wait for that.

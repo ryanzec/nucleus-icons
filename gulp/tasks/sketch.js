@@ -104,6 +104,8 @@ gulp.task('sketch', 'Cleans up sketch SVG files, remove un-needed or un-wanted c
 
             $('svg > g').attr('id', defId);
 
+            $('svg').addClass('svg-icon');
+
             //write the compressed file and remove the slice file
             fileContents = $('svg')[0].outerHTML;
             fs.writeFileSync(newFileName, fileContents);
