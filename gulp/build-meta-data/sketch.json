@@ -272,6 +272,9 @@
     },
     "svg/bullseye-small.svg": {
       "fileHash": "175acaa50d9fc7550dc09544a0176e75f462a6f9"
+    },
+    "svg/eye-small.svg": {
+      "fileHash": "3a18a938f263eb97038675290bba5f6311e397c9"
     }
   },
   "buildFiles": {}

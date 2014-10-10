@@ -2,6 +2,7 @@
 
 ## master
 
+- added eye icon (#15)
 - added target icon (#14)
 - added bullseye icon
 - fixed a few icons that were using white colored shapes when it should have been substracting the shapes
