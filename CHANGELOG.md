@@ -2,6 +2,7 @@
 
 ## master
 
+- added bomb icon (#17)
 - added eye icon (#15)
 - added target icon (#14)
 - added bullseye icon
