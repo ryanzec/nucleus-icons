@@ -155,6 +155,15 @@
     },
     "svg/branch-small.svg": {
       "fileHash": "97431cda2f5874737f0c79f6691e0ef86fad1707"
+    },
+    "svg/target-slice.svg": {
+      "fileHash": "6088118a2e672df9cd412d7adbec11ec3fd35b2a"
+    },
+    "svg/target-small.svg": {
+      "fileHash": "7982aaef4c26eadb117f8fbf2ff0dc4dc159cd0b"
+    },
+    "svg/bullseye-small.svg": {
+      "fileHash": "175acaa50d9fc7550dc09544a0176e75f462a6f9"
     }
   },
   "buildFiles": {
@@ -163,6 +172,7 @@
       "svg/book-closed-small.svg",
       "svg/book-opened-small.svg",
       "svg/branch-small.svg",
+      "svg/bullseye-small.svg",
       "svg/checkmark-small.svg",
       "svg/chevron-down-small.svg",
       "svg/chevron-left-small.svg",
@@ -201,6 +211,7 @@
       "svg/record-small.svg",
       "svg/reverse-small.svg",
       "svg/stop-small.svg",
+      "svg/target-small.svg",
       "svg/thumbs-down-small.svg",
       "svg/thumbs-up-small.svg",
       "svg/user-small.svg",

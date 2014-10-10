@@ -266,6 +266,12 @@
     },
     "svg/branch-small.svg": {
       "fileHash": "97431cda2f5874737f0c79f6691e0ef86fad1707"
+    },
+    "svg/target-small.svg": {
+      "fileHash": "7982aaef4c26eadb117f8fbf2ff0dc4dc159cd0b"
+    },
+    "svg/bullseye-small.svg": {
+      "fileHash": "175acaa50d9fc7550dc09544a0176e75f462a6f9"
     }
   },
   "buildFiles": {}

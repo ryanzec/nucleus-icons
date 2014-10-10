@@ -2,6 +2,8 @@
 
 ## master
 
+- added target icon (#14)
+- added bullseye icon
 - fixed a few icons that were using white colored shapes when it should have been substracting the shapes
 - added paper clip icon
 - added merge icon (#6)
