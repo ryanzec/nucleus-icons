@@ -170,10 +170,14 @@
     },
     "svg/documents-text-slice.svg": {
       "fileHash": "b294406c09be20472b74891100cf0054e9e71621"
+    },
+    "svg/atom-small.svg": {
+      "fileHash": "cd6f27e726806833ddd759f762b4dc83da1404af"
     }
   },
   "buildFiles": {
     "svg/svg-sprite.svg": [
+      "svg/atom-small.svg",
       "svg/beginning-small.svg",
       "svg/bomb-small.svg",
       "svg/book-closed-small.svg",

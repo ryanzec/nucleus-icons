@@ -2,6 +2,7 @@
 
 ## master
 
+- added atom icon
 - added more classes to svg element to allow for more simlified css
 - added rss icon
 - added bomb icon (#17)

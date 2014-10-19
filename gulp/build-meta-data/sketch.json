@@ -155,6 +155,9 @@
     },
     "svg/rss-small.svg": {
       "fileHash": "c8c3a8ee68c3be284cadcce68b77268c2257586c"
+    },
+    "svg/atom-small.svg": {
+      "fileHash": "cd6f27e726806833ddd759f762b4dc83da1404af"
     }
   },
   "buildFiles": {}
