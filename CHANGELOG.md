@@ -2,6 +2,8 @@
 
 ## master
 
+- added more classes to svg element to allow for more simlified css
+- added rss icon
 - added bomb icon (#17)
 - added eye icon (#15)
 - added target icon (#14)

@@ -1,17 +1,7 @@
-.thumbs-down-icon .cuff-hole,
-.thumbs-up-icon .cuff-hole,
-.key-icon .head-hole,
-.clipboard-icon .clip-hole,
-.document-icon .type-indicator,
-.documents-icon .type-indicator,
-.book-closed-icon .line,
-.book-opened-icon .line {
-  fill: white;
+g .alt-color {
+  fill: #909090;
 }
 
-.folder-empty-icon .back,
-.document-icon .fold,
-.documents-icon .fold,
-.clipboard-icon .clip {
-  fill: #909090;
+g .foreground-color {
+  fill: white;
 }
