@@ -173,6 +173,9 @@
     },
     "svg/atom-small.svg": {
       "fileHash": "cd6f27e726806833ddd759f762b4dc83da1404af"
+    },
+    "svg/tunnel-small.svg": {
+      "fileHash": "03ce6ca0d9043a875597553a615dcccfbd4afd3d"
     }
   },
   "buildFiles": {
@@ -227,6 +230,7 @@
       "svg/target-small.svg",
       "svg/thumbs-down-small.svg",
       "svg/thumbs-up-small.svg",
+      "svg/tunnel-small.svg",
       "svg/user-small.svg",
       "svg/users-small.svg",
       "svg/x-small.svg"

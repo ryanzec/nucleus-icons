@@ -158,6 +158,9 @@
     },
     "svg/atom-small.svg": {
       "fileHash": "cd6f27e726806833ddd759f762b4dc83da1404af"
+    },
+    "svg/tunnel-small.svg": {
+      "fileHash": "03ce6ca0d9043a875597553a615dcccfbd4afd3d"
     }
   },
   "buildFiles": {}

@@ -2,6 +2,7 @@
 
 ## master
 
+- added tunnel icon (#26)
 - added atom icon
 - added more classes to svg element to allow for more simlified css
 - added rss icon
