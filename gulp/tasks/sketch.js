@@ -7,6 +7,8 @@ var fs = require('fs');
 var jquery = fs.readFileSync(__dirname + '/../lib/jquery.js', 'utf-8');
 var buildMetaDataFactory = require('build-meta-data');
 var _ = require('lodash');
+var path = require('path');
+var rimraf = require('rimraf');
 
 gulp.task('sketch', 'Cleans up sketch SVG files, remove un-needed or un-wanted code', function(done) {
   var buildMetaData = buildMetaDataFactory.create(process.cwd() + '/gulp/build-meta-data/sketch.json');
@@ -95,7 +97,9 @@ gulp.task('sketch', 'Cleans up sketch SVG files, remove un-needed or un-wanted c
 
             newFileNameEnding += '.svg';
 
+            //save file to configured location
             var newFileName = filePath.replace('-slice.svg', newFileNameEnding);
+            newFileName = process.cwd() + '/' + gulpConfig.tasks.sketch.cleanExportPath + '/' + path.basename(newFileName);
 
             //generate the id by file name, used for generated svg sprite
             var defId = newFileName.substr(0, newFileName.length - 4);
@@ -104,15 +108,14 @@ gulp.task('sketch', 'Cleans up sketch SVG files, remove un-needed or un-wanted c
 
             $('svg > g').attr('id', defId);
 
-            $('svg').addClass('svg-icon');
-
-            //write the compressed file and remove the slice file
+            //write the compressed file
             fileContents = $('svg')[0].outerHTML;
             fs.writeFileSync(newFileName, fileContents);
-            fs.unlink(filePath);
             newFileNames.push(newFileName);
 
             if(key === (files.length - 1)) {
+              //we are done so remove the exported files
+              rimraf.sync(process.cwd() + '/' + gulpConfig.tasks.sketch.cleanExportPath + '/' + gulpConfig.tasks.sketch.sourceFileName + '_export');
               buildMetaData.addBuildMetaDataFiles(newFileNames);
 
               if(buildMetaData.writeFile()) {
