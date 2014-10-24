@@ -176,12 +176,16 @@
     },
     "svg/tunnel-small.svg": {
       "fileHash": "fee319f26eb19bf8d1d4d24a3e98308d9b3bdfee"
+    },
+    "svg/bell-small.svg": {
+      "fileHash": "c9da130a69a25b883f0deef7e678ee2488eed449"
     }
   },
   "buildFiles": {
     "svg/svg-sprite.svg": [
       "svg/atom-small.svg",
       "svg/beginning-small.svg",
+      "svg/bell-small.svg",
       "svg/bomb-small.svg",
       "svg/book-closed-small.svg",
       "svg/book-opened-small.svg",
