@@ -179,6 +179,9 @@
     },
     "svg/bell-small.svg": {
       "fileHash": "c9da130a69a25b883f0deef7e678ee2488eed449"
+    },
+    "svg/radiation-small.svg": {
+      "fileHash": "22be3f04dadddbaa43df3bfbf6c6ab7f5f6ac52f"
     }
   },
   "buildFiles": {
@@ -227,6 +230,7 @@
       "svg/play-small.svg",
       "svg/plus-small.svg",
       "svg/question-mark-small.svg",
+      "svg/radiation-small.svg",
       "svg/record-small.svg",
       "svg/reverse-small.svg",
       "svg/rss-small.svg",

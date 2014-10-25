@@ -326,6 +326,9 @@
     },
     "/repositories/nucleus-icons/svg/bell-small.svg": {
       "fileHash": "c9da130a69a25b883f0deef7e678ee2488eed449"
+    },
+    "/repositories/nucleus-icons/svg/radiation-small.svg": {
+      "fileHash": "22be3f04dadddbaa43df3bfbf6c6ab7f5f6ac52f"
     }
   },
   "buildFiles": {}

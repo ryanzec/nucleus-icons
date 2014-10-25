@@ -2,6 +2,7 @@
 
 ## master
 
+- added radiation icon (#94)
 - added bell icon (#72)
 - updated build system to be able to use output from https://github.com/bomberstudios/sketch-commands export all as svg command
 - added tunnel icon (#26)
