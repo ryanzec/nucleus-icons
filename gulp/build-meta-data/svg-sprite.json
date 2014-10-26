@@ -182,6 +182,9 @@
     },
     "svg/radiation-small.svg": {
       "fileHash": "22be3f04dadddbaa43df3bfbf6c6ab7f5f6ac52f"
+    },
+    "svg/sun-small.svg": {
+      "fileHash": "43a0114d8822ca874d67072064be008b0699ffd5"
     }
   },
   "buildFiles": {
@@ -235,6 +238,7 @@
       "svg/reverse-small.svg",
       "svg/rss-small.svg",
       "svg/stop-small.svg",
+      "svg/sun-small.svg",
       "svg/target-small.svg",
       "svg/thumbs-down-small.svg",
       "svg/thumbs-up-small.svg",

@@ -329,6 +329,9 @@
     },
     "/repositories/nucleus-icons/svg/radiation-small.svg": {
       "fileHash": "22be3f04dadddbaa43df3bfbf6c6ab7f5f6ac52f"
+    },
+    "/repositories/nucleus-icons/svg/sun-small.svg": {
+      "fileHash": "43a0114d8822ca874d67072064be008b0699ffd5"
     }
   },
   "buildFiles": {}
