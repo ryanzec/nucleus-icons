@@ -332,6 +332,9 @@
     },
     "/repositories/nucleus-icons/svg/sun-small.svg": {
       "fileHash": "43a0114d8822ca874d67072064be008b0699ffd5"
+    },
+    "/repositories/nucleus-icons/svg/lightblub-small.svg": {
+      "fileHash": "c47b7be208426dd36b0585b9cb189cfea08a04a9"
     }
   },
   "buildFiles": {}

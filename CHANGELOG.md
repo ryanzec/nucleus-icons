@@ -2,6 +2,7 @@
 
 ## master
 
+- added lightblub icon (#58)
 - added sun icon (#100)
 - added radiation icon (#94)
 - added bell icon (#72)

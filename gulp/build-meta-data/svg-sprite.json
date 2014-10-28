@@ -185,6 +185,9 @@
     },
     "svg/sun-small.svg": {
       "fileHash": "43a0114d8822ca874d67072064be008b0699ffd5"
+    },
+    "svg/lightblub-small.svg": {
+      "fileHash": "c47b7be208426dd36b0585b9cb189cfea08a04a9"
     }
   },
   "buildFiles": {
@@ -224,6 +227,7 @@
       "svg/inbox-small.svg",
       "svg/info-small.svg",
       "svg/key-small.svg",
+      "svg/lightblub-small.svg",
       "svg/magnifier-small.svg",
       "svg/merge-small.svg",
       "svg/minus-small.svg",
