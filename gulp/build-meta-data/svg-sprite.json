@@ -188,6 +188,9 @@
     },
     "svg/lightblub-small.svg": {
       "fileHash": "c47b7be208426dd36b0585b9cb189cfea08a04a9"
+    },
+    "svg/funnel-small.svg": {
+      "fileHash": "6c3319f27249c696f9a72e3d8bc75c95835c6969"
     }
   },
   "buildFiles": {
@@ -222,6 +225,7 @@
       "svg/folder-closed-small.svg",
       "svg/folder-empty-small.svg",
       "svg/forward-small.svg",
+      "svg/funnel-small.svg",
       "svg/gear-small.svg",
       "svg/gears-small.svg",
       "svg/inbox-small.svg",

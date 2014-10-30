@@ -335,6 +335,9 @@
     },
     "/repositories/nucleus-icons/svg/lightblub-small.svg": {
       "fileHash": "c47b7be208426dd36b0585b9cb189cfea08a04a9"
+    },
+    "/repositories/nucleus-icons/svg/funnel-small.svg": {
+      "fileHash": "6c3319f27249c696f9a72e3d8bc75c95835c6969"
     }
   },
   "buildFiles": {}

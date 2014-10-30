@@ -2,6 +2,7 @@
 
 ## master
 
+- added funnel icon (#84)
 - added lightblub icon (#58)
 - added sun icon (#100)
 - added radiation icon (#94)
