@@ -338,6 +338,9 @@
     },
     "/repositories/nucleus-icons/svg/funnel-small.svg": {
       "fileHash": "6c3319f27249c696f9a72e3d8bc75c95835c6969"
+    },
+    "/repositories/nucleus-icons/svg/swap-small.svg": {
+      "fileHash": "a0a060266d017fbbbfa2383f4c6378ac1ff9b575"
     }
   },
   "buildFiles": {}

@@ -191,6 +191,9 @@
     },
     "svg/funnel-small.svg": {
       "fileHash": "6c3319f27249c696f9a72e3d8bc75c95835c6969"
+    },
+    "svg/swap-small.svg": {
+      "fileHash": "a0a060266d017fbbbfa2383f4c6378ac1ff9b575"
     }
   },
   "buildFiles": {
@@ -247,6 +250,7 @@
       "svg/rss-small.svg",
       "svg/stop-small.svg",
       "svg/sun-small.svg",
+      "svg/swap-small.svg",
       "svg/target-small.svg",
       "svg/thumbs-down-small.svg",
       "svg/thumbs-up-small.svg",
