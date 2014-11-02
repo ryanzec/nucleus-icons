@@ -194,6 +194,9 @@
     },
     "svg/swap-small.svg": {
       "fileHash": "a0a060266d017fbbbfa2383f4c6378ac1ff9b575"
+    },
+    "svg/bug-small.svg": {
+      "fileHash": "7ee7e088427a0450deb02890946904efa077ae94"
     }
   },
   "buildFiles": {
@@ -205,6 +208,7 @@
       "svg/book-closed-small.svg",
       "svg/book-opened-small.svg",
       "svg/branch-small.svg",
+      "svg/bug-small.svg",
       "svg/bullseye-small.svg",
       "svg/checkmark-small.svg",
       "svg/chevron-down-small.svg",

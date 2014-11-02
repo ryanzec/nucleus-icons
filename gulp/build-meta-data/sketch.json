@@ -341,6 +341,9 @@
     },
     "/repositories/nucleus-icons/svg/swap-small.svg": {
       "fileHash": "a0a060266d017fbbbfa2383f4c6378ac1ff9b575"
+    },
+    "/repositories/nucleus-icons/svg/bug-small.svg": {
+      "fileHash": "7ee7e088427a0450deb02890946904efa077ae94"
     }
   },
   "buildFiles": {}
