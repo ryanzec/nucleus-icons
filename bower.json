@@ -2,9 +2,10 @@
   "name": "nucleus-icons",
   "version": "0.1.1",
   "ignore": [
-    "gulp/*",
-    "source/*",
-    "web/*",
+    "gulp",
+    "web",
+    ".gitignore",
+    "bower.json",
     "CHANGELOG.md",
     "gulpfile.js",
     "package.json",
