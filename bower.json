@@ -5,7 +5,6 @@
     "gulp",
     "web",
     ".gitignore",
-    "bower.json",
     "CHANGELOG.md",
     "gulpfile.js",
     "package.json",
