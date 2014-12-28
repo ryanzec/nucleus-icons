@@ -344,6 +344,9 @@
     },
     "/repositories/nucleus-icons/svg/bug-small.svg": {
       "fileHash": "7ee7e088427a0450deb02890946904efa077ae94"
+    },
+    "/repositories/nucleus-icons/svg/four-corners-small.svg": {
+      "fileHash": "6cf9c16bd513c065ce45a162259224774a7a484b"
     }
   },
   "buildFiles": {}

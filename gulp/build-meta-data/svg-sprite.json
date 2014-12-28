@@ -197,6 +197,9 @@
     },
     "svg/bug-small.svg": {
       "fileHash": "7ee7e088427a0450deb02890946904efa077ae94"
+    },
+    "svg/four-corners-small.svg": {
+      "fileHash": "6cf9c16bd513c065ce45a162259224774a7a484b"
     }
   },
   "buildFiles": {
@@ -232,6 +235,7 @@
       "svg/folder-closed-small.svg",
       "svg/folder-empty-small.svg",
       "svg/forward-small.svg",
+      "svg/four-corners-small.svg",
       "svg/funnel-small.svg",
       "svg/gear-small.svg",
       "svg/gears-small.svg",
