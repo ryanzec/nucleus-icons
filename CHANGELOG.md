@@ -2,6 +2,7 @@
 
 ## master
 
+- added calendar icon (#78)
 - added bug icon (#42)
 - added swap icon (#48)
 - added funnel icon (#84)

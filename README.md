@@ -2,6 +2,12 @@
 
 This is an open source set of svg icons.  These icons are made with Sketch and the Sketch source files are included in this repository.
 
+## To Build Files
+
+- `sketchtool export slices svg/svg-icons.sketch --output=./svg/svg-icons_export`
+- `gulp sketch`
+- `gulp svg-sprite`
+
 ## Goals
 
 There are a number of goals I hope to maintain with these icons:
