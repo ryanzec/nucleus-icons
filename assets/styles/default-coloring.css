@@ -1,7 +1,9 @@
 g .alt-color {
   fill: #909090;
+  color: #909090;
 }
 
 g .foreground-color {
   fill: white;
+  color: white;
 }
