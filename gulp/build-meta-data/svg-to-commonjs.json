@@ -1,0 +1,194 @@
+{
+  "workingFiles": {
+    "svg/atom-small.svg": {
+      "fileHash": "839813e7dc40a5112bec57dc2d4ffd33ddb933a1"
+    },
+    "svg/beginning-small.svg": {
+      "fileHash": "006c150f2e33c8dbc2ada04ef147509f20eedbf1"
+    },
+    "svg/bell-small.svg": {
+      "fileHash": "c9da130a69a25b883f0deef7e678ee2488eed449"
+    },
+    "svg/bomb-small.svg": {
+      "fileHash": "2d477219dcc9ed54bbf32342a4b508cf14523a78"
+    },
+    "svg/book-closed-small.svg": {
+      "fileHash": "bd517d82e0e570cc751304d6ef51007270eb3fcd"
+    },
+    "svg/book-opened-small.svg": {
+      "fileHash": "624dadcb45edbe8dccf42c597b5bd7976392df85"
+    },
+    "svg/branch-small.svg": {
+      "fileHash": "944ae421f3bbf42a2436f9e1c1998d8c0955c4bf"
+    },
+    "svg/bug-small.svg": {
+      "fileHash": "7ee7e088427a0450deb02890946904efa077ae94"
+    },
+    "svg/bullseye-small.svg": {
+      "fileHash": "9398c15bca3bd9eaaf71a974452e04c188386f82"
+    },
+    "svg/calendar-small.svg": {
+      "fileHash": "c5b0055bb46e336dd0d38b7ed6eb80a131981e58"
+    },
+    "svg/checkmark-small.svg": {
+      "fileHash": "e460e4e6a1e7072bdaa94038226528cb7860647b"
+    },
+    "svg/chevron-down-small.svg": {
+      "fileHash": "b5b00c82da286a5c6223966b56baa0dce58a22e3"
+    },
+    "svg/chevron-left-small.svg": {
+      "fileHash": "ee071f1503665566e6f6a847d1f53562a9e8bb81"
+    },
+    "svg/chevron-right-small.svg": {
+      "fileHash": "5d240d08e8da768c27144204a1a0609d2ea8343f"
+    },
+    "svg/chevron-top-small.svg": {
+      "fileHash": "8bb36425101d267e630922ecdd8fefa3383c9abc"
+    },
+    "svg/clipboard-small.svg": {
+      "fileHash": "5f8e0d8811b1afc718fe50da74bdeb138ad5c5b2"
+    },
+    "svg/commit-small.svg": {
+      "fileHash": "be635e6de91c9487d84097b40fd0be302c6a0a56"
+    },
+    "svg/document-code-small.svg": {
+      "fileHash": "423548a0a2e18638ed25160d2ce4e3c87663c395"
+    },
+    "svg/document-empty-small.svg": {
+      "fileHash": "eb5810ff31e206f011d7b76ed6de166f8eb06f06"
+    },
+    "svg/document-text-small.svg": {
+      "fileHash": "61db8ce38725583b072bacf8f1f207c30e4a8579"
+    },
+    "svg/documents-code-small.svg": {
+      "fileHash": "569cd3934a94dde8d7d15160a00a9aa2fdd14b84"
+    },
+    "svg/documents-empty-small.svg": {
+      "fileHash": "0085f29b7da873ec0c092187646ab2d4768012a4"
+    },
+    "svg/documents-text-small.svg": {
+      "fileHash": "304ffb57bda39e479569ecd6e28d97594cc07cc7"
+    },
+    "svg/door-enter-small.svg": {
+      "fileHash": "72e46ef00d411bec1a3258015d1ad0ad52a1e787"
+    },
+    "svg/door-exit-small.svg": {
+      "fileHash": "496d96e7b8e84b7d6440c8c6683fb7b47d0b5fe5"
+    },
+    "svg/end-small.svg": {
+      "fileHash": "fb76c59babea1aca560e5687ccae2e857003f091"
+    },
+    "svg/eye-small.svg": {
+      "fileHash": "38c9d878f46f5adb5bd6683175c196837c0fd6d7"
+    },
+    "svg/flip-horizontal-small.svg": {
+      "fileHash": "830664c6817be53386c72c01700f074e161779e4"
+    },
+    "svg/flip-vertical-small.svg": {
+      "fileHash": "66d30440ea247829850d075b7c7384c7a42d8b26"
+    },
+    "svg/folder-closed-small.svg": {
+      "fileHash": "a2f7e9fea0ed87c5ce7cb81797977c324d655f23"
+    },
+    "svg/folder-empty-small.svg": {
+      "fileHash": "b88818ae9eeb02b74b720d942b4fcc0d577b276f"
+    },
+    "svg/forward-small.svg": {
+      "fileHash": "ca7dfc472e361f39d0521814528204fbb1da5237"
+    },
+    "svg/four-corners-small.svg": {
+      "fileHash": "6cf9c16bd513c065ce45a162259224774a7a484b"
+    },
+    "svg/funnel-small.svg": {
+      "fileHash": "6c3319f27249c696f9a72e3d8bc75c95835c6969"
+    },
+    "svg/gear-small.svg": {
+      "fileHash": "87019e8d86089effdaad35f5d9318b3185928956"
+    },
+    "svg/gears-small.svg": {
+      "fileHash": "92809c2bebb380cc10dfa19aa5ea0be5a3b2dd54"
+    },
+    "svg/inbox-small.svg": {
+      "fileHash": "165d96d9f6cd93eaba003be5da94d594b7edb1b6"
+    },
+    "svg/info-small.svg": {
+      "fileHash": "8ddfa8cad084c19d9e3943bfcb1fc1e36cd660b2"
+    },
+    "svg/key-small.svg": {
+      "fileHash": "40df2293e4486db200acfbfcf76d1c91d88866a8"
+    },
+    "svg/lightblub-small.svg": {
+      "fileHash": "c47b7be208426dd36b0585b9cb189cfea08a04a9"
+    },
+    "svg/magnifier-small.svg": {
+      "fileHash": "e24f8761b5dbac4d19a7947075f0dd587f29ef87"
+    },
+    "svg/merge-small.svg": {
+      "fileHash": "42514164621438dfd18f7cb685b6ed4415081cec"
+    },
+    "svg/minus-small.svg": {
+      "fileHash": "02c8ce2def2bced7d216a9ce35bfc95db22a451f"
+    },
+    "svg/paper-clip-small.svg": {
+      "fileHash": "54100ae53fe64455a7d5df9e5e94ddd2cb4a167d"
+    },
+    "svg/pause-small.svg": {
+      "fileHash": "e31f5a25a190f3555278c18aab8e86f2db0913a8"
+    },
+    "svg/pie-small.svg": {
+      "fileHash": "c12677a5ffdafd710e59058e22a52dfe578761dc"
+    },
+    "svg/play-small.svg": {
+      "fileHash": "3642dd26700f358721376d54a8ad0256d3b8da01"
+    },
+    "svg/plus-small.svg": {
+      "fileHash": "eeb4ae48a12109783b056755a8c7ff63fefd7297"
+    },
+    "svg/question-mark-small.svg": {
+      "fileHash": "a46fb0b2716013c1f122eb6dfd1ce82f99273a98"
+    },
+    "svg/radiation-small.svg": {
+      "fileHash": "22be3f04dadddbaa43df3bfbf6c6ab7f5f6ac52f"
+    },
+    "svg/record-small.svg": {
+      "fileHash": "9138c937f8a838110d6447fbe69000a0cc03bed2"
+    },
+    "svg/reverse-small.svg": {
+      "fileHash": "1bd0a196a46171ef43f2e90438654d6b9baaac34"
+    },
+    "svg/rss-small.svg": {
+      "fileHash": "f65c3e477de432cd30b8c97d6e33f2c4c6c3025f"
+    },
+    "svg/stop-small.svg": {
+      "fileHash": "3d4192d4bf495efc015d4224f6a3008d00b074b6"
+    },
+    "svg/sun-small.svg": {
+      "fileHash": "43a0114d8822ca874d67072064be008b0699ffd5"
+    },
+    "svg/swap-small.svg": {
+      "fileHash": "a0a060266d017fbbbfa2383f4c6378ac1ff9b575"
+    },
+    "svg/target-small.svg": {
+      "fileHash": "81b3ffdcc7d511528e12aa00a7e9363ac0f1be6b"
+    },
+    "svg/thumbs-down-small.svg": {
+      "fileHash": "89539a2ed6520cfce132134fcfbe4cc21d90166a"
+    },
+    "svg/thumbs-up-small.svg": {
+      "fileHash": "5d9499988dd7083772d8460db7ab869beb79b2e6"
+    },
+    "svg/tunnel-small.svg": {
+      "fileHash": "fee319f26eb19bf8d1d4d24a3e98308d9b3bdfee"
+    },
+    "svg/user-small.svg": {
+      "fileHash": "556a14d39fa0e73bacef2c95e5b30df8a9f5b73f"
+    },
+    "svg/users-small.svg": {
+      "fileHash": "6161c03fe36fb2b240f3d245ad09d901a8ee1420"
+    },
+    "svg/x-small.svg": {
+      "fileHash": "ece163eff94eee89d85d587ac36b3d69cf2fba28"
+    }
+  },
+  "buildFiles": {}
+}
