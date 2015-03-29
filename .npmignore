@@ -1,0 +1,9 @@
+gulp/*
+web/*
+*.sketch
+.gitignore
+CHANGELOG.md
+gulpfile.js
+package.json
+README.md
+npm-debug.log

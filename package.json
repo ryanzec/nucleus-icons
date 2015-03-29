@@ -1,6 +1,6 @@
 {
   "name": "nucleus-icons",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "dependencies": {},
   "devDependencies": {
     "async": "0.9.0",
@@ -15,6 +15,7 @@
     "rimraf": "2.2.8",
     "through2": "0.6.1"
   },
+  "main": "svg.js",
   "engines": {
     "node": ">=0.11.9"
   }
