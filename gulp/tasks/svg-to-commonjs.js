@@ -7,7 +7,6 @@ var fs = require('fs');
 var jquery = fs.readFileSync(__dirname + '/../lib/jquery.js', 'utf-8');
 var buildMetaDataFactory = require('build-meta-data');
 var path = require('path');
-var esrever = require('esrever');
 
 gulp.task('svg-to-commonjs', 'Creates a commonjs compatible file that exports the svg in a JSON object', function(done) {
   var buildMetaData = buildMetaDataFactory.create(process.cwd() + '/gulp/build-meta-data/svg-to-commonjs.json');
@@ -26,7 +25,9 @@ gulp.task('svg-to-commonjs', 'Creates a commonjs compatible file that exports th
         json[size] = {};
       }
 
-      json[size][iconName] = fs.readFileSync(filePath, 'utf-8');
+      json[size][iconName] = fs.readFileSync(filePath, 'utf-8')
+      .replace(/\s?id="[a-zA-Z0-9\-\_]*"/g, '')
+      .replace(/<svg /, '<svg class="svg-icon" ');
     });
 
     fs.writeFileSync(process.cwd() + '/svg.js', 'module.exports=' + JSON.stringify(json) + ';');
