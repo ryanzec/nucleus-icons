@@ -33,7 +33,7 @@ gulp.task('svg-sprite', 'Cleans up sketch SVG files, remove un-needed or un-want
             svgSpriteContent += '<symbol id="' + rootElementId + '" viewBox="' + viewBox._attributes.viewBox._nodeValue + '">' + svgInnerContent + '</symbol>';
 
             if(key === (files.length - 1)) {
-              buildMetaData.addBuildMetaDataFiles(files, process.cwd() + '/svg/svg-sprite.svg', files);
+              buildMetaData.addBuildMetaDataFiles(files, process.cwd() + '/svg-sprite.svg', files);
 
               if(buildMetaData.writeFile()) {
                 gutil.log(gutil.colors.cyan('writing build meta data file: ' + buildMetaData.filePath));
@@ -43,7 +43,7 @@ gulp.task('svg-sprite', 'Cleans up sketch SVG files, remove un-needed or un-want
 
               //last file done so build svg sprite
               svgSpriteContent += '</svg>';
-              fs.writeFileSync(process.cwd() + '/svg/svg-sprite.svg', svgSpriteContent);
+              fs.writeFileSync(process.cwd() + '/svg-sprite.svg', svgSpriteContent);
               done();
             }
           }

@@ -1,4 +1,6 @@
 var gulpConfig = {
+  webPath: 'web',
+  buildPath: 'web/svg',
   sourceFiles: {
     sketch: [
       'svg/**/*-slice.svg'
@@ -9,6 +11,12 @@ var gulpConfig = {
     ]
   },
   tasks: {
+    copyStaticAssets: {
+      staticAssetExtensions: ['svg'],
+      staticAssetFolders: [
+        'svg'
+      ]
+    },
     sketch: {
       cleanExportPath: 'svg',
       sourceFileName: 'svg-icons'

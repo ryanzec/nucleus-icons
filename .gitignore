@@ -1,2 +1,4 @@
+/web/svg/*
+/web/local-server
 node_modules/*
 npm-debug.log
