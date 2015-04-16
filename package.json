@@ -1,6 +1,6 @@
 {
   "name": "nucleus-icons",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "dependencies": {},
   "devDependencies": {
     "async": "0.9.0",
