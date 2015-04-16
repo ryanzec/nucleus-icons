@@ -175,7 +175,7 @@
       "fileHash": "bd517d82e0e570cc751304d6ef51007270eb3fcd"
     },
     "/repositories/nucleus-icons/svg/book-opened-small.svg": {
-      "fileHash": "cbbf6c23ba268810c784479d8761d3245770dc18"
+      "fileHash": "624dadcb45edbe8dccf42c597b5bd7976392df85"
     },
     "/repositories/nucleus-icons/svg/branch-small.svg": {
       "fileHash": "944ae421f3bbf42a2436f9e1c1998d8c0955c4bf"
@@ -211,7 +211,7 @@
       "fileHash": "eb5810ff31e206f011d7b76ed6de166f8eb06f06"
     },
     "/repositories/nucleus-icons/svg/document-text-small.svg": {
-      "fileHash": "302d568b47f8b4c2bca3d2e988dabffcd0c86dc2"
+      "fileHash": "61db8ce38725583b072bacf8f1f207c30e4a8579"
     },
     "/repositories/nucleus-icons/svg/documents-code-small.svg": {
       "fileHash": "569cd3934a94dde8d7d15160a00a9aa2fdd14b84"
@@ -536,6 +536,12 @@
     },
     "/Users/rzec/code/git/nucleus-icons/svg/calendar-small.svg": {
       "fileHash": "c5b0055bb46e336dd0d38b7ed6eb80a131981e58"
+    },
+    "/repositories/nucleus-icons/svg/calendar-small.svg": {
+      "fileHash": "c5b0055bb46e336dd0d38b7ed6eb80a131981e58"
+    },
+    "/repositories/nucleus-icons/svg/play-circle-small.svg": {
+      "fileHash": "15f1cd86ef8f8238ab7d8e86fa50c9ae65969761"
     }
   },
   "buildFiles": {}

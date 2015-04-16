@@ -188,6 +188,9 @@
     },
     "svg/x-small.svg": {
       "fileHash": "ece163eff94eee89d85d587ac36b3d69cf2fba28"
+    },
+    "svg/play-circle-small.svg": {
+      "fileHash": "15f1cd86ef8f8238ab7d8e86fa50c9ae65969761"
     }
   },
   "buildFiles": {}

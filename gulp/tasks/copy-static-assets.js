@@ -32,7 +32,6 @@ gulp.task('copy-static-assets', 'Copy static assets to the build folder', functi
 
   if(changedFiles.length > 0) {
     assets = assets.filter(function(value) {
-      console.log(value);
       return true;
     })
     var stream = gulp.src(assets, {
