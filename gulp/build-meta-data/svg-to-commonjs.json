@@ -28,7 +28,7 @@
       "fileHash": "9398c15bca3bd9eaaf71a974452e04c188386f82"
     },
     "svg/calendar-small.svg": {
-      "fileHash": "c5b0055bb46e336dd0d38b7ed6eb80a131981e58"
+      "fileHash": "2d1c34d3d615af3b3243f0b61e7067ef2496ac6a"
     },
     "svg/checkmark-small.svg": {
       "fileHash": "e460e4e6a1e7072bdaa94038226528cb7860647b"
@@ -191,6 +191,18 @@
     },
     "svg/play-circle-small.svg": {
       "fileHash": "b4b380e101f9483ea0513cdbd17a41c147f9f873"
+    },
+    "svg/checkbox-empty-small.svg": {
+      "fileHash": "68002556836cbf78c6e2e643934ff95ff67faa17"
+    },
+    "svg/radio-checked-small.svg": {
+      "fileHash": "f6c4e3dd68e66f7a5253addfc17027c471fa2ec2"
+    },
+    "svg/radio-empty-small.svg": {
+      "fileHash": "f2b66e19dcf8d9058d6b97e9b1220e9d8adda7f9"
+    },
+    "svg/checkbox-checked-small.svg": {
+      "fileHash": "96d7207b0d4389468f058cede7fde11cad19f6be"
     }
   },
   "buildFiles": {}
